@@ -6,6 +6,8 @@
 
 ## 1. Executive Summary
 
+As organizations increasingly depend on low-latency interactions, event-driven processing, and scalable data architectures, it becomes important to understand where each cloud platform excels when choosing a suitable solution.This comparison evaluates five key service domains: REST APIs, GraphQL, WebSockets, data streaming, and streaming analytics. AWS delivers the most gobally available ecosystem, with strong capabilities in API delivery and high-volume streaming scenarios. Azure offers tight alignment with enterprise environments, hybrid deployments, and analytics tools that naturally integrate with Microsoft platforms. GCP differentiates itself through advanced data processing and analytics performance, leveraging Google’s global infrastructure.
+
 ## 2. Introduction
 
 The purpose of this assignment is to compare the remote data and real-time application services offered by Azure, AWS and GCP. Between the 3 providers, AWS is the largest provider known for its range of services and global infrastructure which a lot of organizations depend on. Azure is notable for organizations that are invested in the Microsoft ecosystem and from our classes we have learned Azure is generally used in the government. Google Cloud is great for services working with data and analytics.
@@ -69,3 +71,7 @@ Using AWS for gaming with realtime matchmaking and lobby systems with live score
 ## 5. Conclusion
 
 All the three cloud providers provide support for remote data and real time applications, which each of them having advantages. For example, AWS offers a lot of services but also has native support for GraphQL, Azure is suited for enterprise environments with easy integration of Microsoft 365 and Teams, GCP has an advantage in analytics with BigQuery. The choice depends on what the workload requires.
+
+## AI Use
+
+AI was used for brainstorming ideas, finding links to certian information as some cloud providers websites aren't easily navigated to find certain information. It was also used to summarize and understand pricing for each cloud provider as they have some complicated pricing systems.
