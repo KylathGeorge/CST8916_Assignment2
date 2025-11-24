@@ -68,3 +68,4 @@ Using AWS for gaming with realtime matchmaking and lobby systems with live score
 
 ## 5. Conclusion
 
+All the three cloud providers provide support for remote data and real time applications, which each of them having advantages. For example, AWS offers a lot of services but also has native support for GraphQL, Azure is suited for enterprise environments with easy integration of Microsoft 365 and Teams, GCP has an advantage in analytics with BigQuery. The choice depends on what the workload requires.
