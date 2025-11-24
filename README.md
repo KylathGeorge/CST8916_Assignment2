@@ -30,9 +30,27 @@ Google Cloud can implement GraphQL using Apigee and their pricing model follows 
 
 ### C. WebSocket Services
 
+Azure PubSub provides WebSocket subprotocols including MQTT which is what websockets use. The pricing is available in tiers from free, standard or premium and are differentiated by the number of concurrent connections, messages and maximum units allowed.
+
+AWS API Gateway natively supports websockets for real-time applications. The pricing is determined by the messages send and received, metered in 32KB increments,  and the total number of connection minutes.
+
+GCP does not seem to natively support websockets and must use Google run to host it through custom deployments. They have both instance based billing and request based billing.
+
 ### D. Data Streaming Services
 
+For Data streaming, Azure Event Hubs provides a native data-streaming service in the cloud that can stream millions of events per second with low latency from any source to destination. They use a tiered system for pricing depending on throughput as well as added features such as geo-replication as you reach Premium and Dedicated Tiers.
+
+Amazon uses Amazon Kinesis to collect, process and analyze real-time video and data streams. Their pricing system seems to be dependent on the amount of data read or written plus an hourly charge on lower tiers, while higher tiers only charge for data ingested.
+
+Google uses Google Pub/Sub for data streaming. Their pricing system depends on the throughput and storage costs.
+
 ### E. Streaming Analytics
+
+Azure Stream Analytics is a fully managed stream processing engine that is designed to analyze and process large volumes of data with low latency. Their pricing system depends on the streaming units used with tiered discounts, meaning the more streaming units used the lower the cost per unit.
+
+AWS kinesis has sql based analytics, however I think this is being shut down. I couldn't really find a specifc service that AWS uses for analytics but I found Apache Flink based real time analytics.
+
+Google uses Google Dataflow whihc provides unified stream and batch data processing. Their pricing system is based on the compute resources used to run pipelines paying for the Vcpu and memory consumption for the duration of a job. There are additional charges for persistent disk usage, streaming engine data processing etc.
 
 ## 4. Use Case Analysis
 
