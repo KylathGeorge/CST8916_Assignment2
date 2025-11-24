@@ -54,4 +54,17 @@ Google uses Google Dataflow whihc provides unified stream and batch data process
 
 ## 4. Use Case Analysis
 
+### Use Case 1
+
+Azure for internal chat for Microsoft-based organizations:
+
+It would be easier to integrate with the microsoft ecosystem and use Azure Pub/Sub to fit the ecosystem. It will have smooth integration with Microsoft AD/Entra for authentication, 365 and Teams.
+
+### Use Case 2
+
+Gaming Applications
+
+Using AWS for gaming with realtime matchmaking and lobby systems with live score updates with their global network for low latency and DynamoDB for real-time updates.
+
 ## 5. Conclusion
+
